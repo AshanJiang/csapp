@@ -1,6 +1,5 @@
 ﻿#include <stdio.h>
-
-typedef unsigned char* byte_pointer;
+#include "show-bytes.h"
 
 void show_bytes(byte_pointer start, size_t len)
 {
@@ -29,10 +28,4 @@ void test_show_bytes(int val) {
 	show_int(ival); // 39 30 00 00 小端显示
 	show_float(fval); // 00 e4 40 46 4位存储int和float类型
 	show_pointer(pval);// 4位存储指针类型，值和地址值有关，不固定
-}
-
-int main()
-{
-	test_show_bytes(12345);
-	return 0;
 }

@@ -21,5 +21,16 @@
     <ClCompile Include="show-bytes.c">
       <Filter>源文件\ch2</Filter>
     </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tadd_ok.c">
+      <Filter>源文件\ch2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="show-bytes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
