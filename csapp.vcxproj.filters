@@ -27,9 +27,24 @@
     <ClCompile Include="tadd_ok.c">
       <Filter>源文件\ch2</Filter>
     </ClCompile>
+    <ClCompile Include="tsub_ok.c">
+      <Filter>源文件\ch2</Filter>
+    </ClCompile>
+    <ClCompile Include="tmult_ok.c">
+      <Filter>源文件\ch2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="show-bytes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tadd_ok.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tsub_ok.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tmult_ok.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

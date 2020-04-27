@@ -147,12 +147,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="tmult_ok.c" />
+    <ClCompile Include="tsub_ok.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="show-bytes.c" />
     <ClCompile Include="tadd_ok.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="show-bytes.h" />
+    <ClInclude Include="tadd_ok.h" />
+    <ClInclude Include="tmult_ok.h" />
+    <ClInclude Include="tsub_ok.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
